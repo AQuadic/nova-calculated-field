@@ -8,6 +8,7 @@ Nova.booting((Vue, router, store) => {
     Vue.component('detail-listener-currency-field', require('./components/Detail/ListenerCurrencyField'));
     Vue.component('detail-listener-date-field', require('./components/Detail/ListenerDateField'));
     Vue.component('detail-listener-field', require('./components/Detail/ListenerField'));
+    Vue.component('detail-listener-info-field', require('./components/Detail/ListenerInfoField'));
     Vue.component('detail-listener-hidden-field', require('./components/Detail/ListenerHiddenField'));
 
     // Form
@@ -19,6 +20,7 @@ Nova.booting((Vue, router, store) => {
     Vue.component('form-listener-currency-field', require('./components/Form/ListenerCurrencyField'));
     Vue.component('form-listener-date-field', require('./components/Form/ListenerDateField'));
     Vue.component('form-listener-field', require('./components/Form/ListenerField'));
+    Vue.component('form-listener-info-field', require('./components/Form/ListenerInfoField'));
     Vue.component('form-listener-hidden-field', require('./components/Form/ListenerHiddenField'));
 
     // Index
@@ -30,6 +32,7 @@ Nova.booting((Vue, router, store) => {
     Vue.component('index-listener-currency-field', require('./components/Index/ListenerCurrencyField'));
     Vue.component('index-listener-date-field', require('./components/Index/ListenerDateField'));
     Vue.component('index-listener-field', require('./components/Index/ListenerField'));
+    Vue.component('index-listener-info-field', require('./components/Index/ListenerInfoField'));
     Vue.component('index-listener-hidden-field', require('./components/Index/ListenerHiddenField'));
 
     // Button
